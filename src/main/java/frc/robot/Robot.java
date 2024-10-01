@@ -89,6 +89,8 @@ public class Robot extends TimedRobot {
         if (mag2 >= 0.04)
             calcAnalog2(analog2, X2, Y2, mag2, seno2);
 
+        SmartDashboard();
+
     }
 public void SmartDashboard(){
     SmartDashboard.putBoolean("botao (A)  ativado", bntA);
